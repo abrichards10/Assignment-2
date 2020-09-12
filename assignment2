@@ -15,7 +15,7 @@ public class Assignment2{
             }
 
             // start one after i
-            for (int j = 0; j < num.length; j++) {
+            for (int j = i; j < num.length; j++) { //starts at j=i so it doesn't have to check the stuff before (again)
 
                 // If the two nums add to sum
                 if (num[i] + num[j] == sum) {
